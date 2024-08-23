@@ -132,45 +132,87 @@ The **Merlin-Equ8** sample demonstrates a typical anti-cheat mechanism used in g
 
 **Effective Date:** 8/23/2024
 
-## 1. Introduction
 
-This End User License Agreement ("EULA") is a legal agreement between you and [Your Name or Organization] ("Licensor") regarding the use of the software code, documentation, and other content provided in the Merlin-Malware repository (the "Software"). By using or contributing to this Software, you agree to the terms of this EULA.
 
-## 2. License Grant and Fair Use
+This End User License Agreement (the "Agreement") governs your access to and use of the [malware analysis and research] (the "Content") published by [Your Name/Your Organization] (the "Publisher"). By accessing or using the Content, you agree to the terms and conditions outlined in this Agreement.
 
-Subject to the terms of this EULA, the Licensor grants you a limited, non-exclusive, non-transferable, and revocable license to use, modify, and distribute the Software under the principles of **Fair Use**, as outlined by copyright law and as explained in this agreement. This includes:
+## 1. Purpose of the Content
 
-- **Educational Use:** You may use the Software for educational and research purposes.
-- **Non-Commercial Use:** You may use the Software for personal or non-commercial projects.
-- **Commentary and Criticism:** You may use parts of the Software to provide commentary, criticism, or analysis.
+The Content has been published with the purpose of:
 
-## 3. Prohibited Uses
+1. Exposing, documenting, and analyzing malware found in public software for the **public interest**.
+2. Informing the public of **security vulnerabilities**, **malicious behavior**, and **illegal activities** within the analyzed software.
+3. Providing educational and research resources for security professionals, researchers, and the general public to better understand potential risks.
 
-The following actions are prohibited:
+## 2. Fair Use and Legal Protections
 
-- **Infringing Use:** Any use that violates copyright law or is intended to bypass fair use protections.
-- **Commercial Exploitation:** Selling, sublicensing, or distributing the Software in a way that constitutes a direct commercial product is not allowed without explicit permission from the Licensor.
+This publication is fully protected under the **fair use** provisions of **U.S. copyright law** (17 U.S.C. § 107) and equivalent international laws. The Publisher has reverse-engineered and analyzed the software for the explicit purpose of exposing **malware** and **security vulnerabilities**, which are considered matters of public interest. As such, the following factors strongly support the classification of this work as fair use:
 
-## 4. Copyright and Attribution
+- **Transformative Use:** The Publisher's use of the original software is strictly for reverse-engineering and analysis purposes, to expose malicious activity, which is entirely distinct from the software's intended purpose.
+- **Public Interest and Education:** The Content is intended to protect and inform the public about the dangers of the malware. It is also meant to educate security professionals and researchers on the nature of the malicious activity.
+- **Minimal Use:** Only the portions of the software necessary to demonstrate the malware's behavior and document its harmful effects have been used.
+- **No Harm to Market:** The Publisher’s use of the software does not interfere with the legitimate market value of the original work, as it is solely focused on its malicious components.
 
-The Software may contain copyrighted material, trademarks, or other proprietary information. Any content used under fair use must be attributed to its original author. The Licensor does not claim ownership over third-party content that is integrated into the Software.
+## 3. Whistleblower Protections
 
-## 5. No Warranties
+The Publisher discloses the presence of malware in publicly available software in good faith, in accordance with **whistleblower protections** granted under various U.S. and international laws, including but not limited to:
 
-The Software is provided "as is," without any warranties of any kind, either express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
+- **Whistleblower Protection Act** (5 U.S.C. § 2302): This law protects individuals who disclose illegal, unethical, or harmful behavior, including the presence of malware in public software.
+- **Digital Millennium Copyright Act (DMCA) Exemption for Security Research**: The Publisher's actions fall under the **security research exemption** of the DMCA, as codified under **37 C.F.R. § 201.40** (Title 37: Patents, Trademarks, and Copyrights). This exemption allows security researchers to bypass digital rights management (DRM) and other technical protections when exposing vulnerabilities, such as malware, for public safety.
 
-## 6. DMCA and Legal Compliance
+### 3.1 DMCA Security Research Exemption
 
-While this EULA is designed to protect fair use rights, the Licensor acknowledges that all content on GitHub is subject to DMCA takedown procedures. If you believe that content in this repository violates your rights, please contact us directly before filing a DMCA notice.
+The **DMCA Section 1201 Security Research Exemption** permits the circumvention of technological protection measures (TPMs) for the purposes of **good-faith security research**. The exemption was issued by the **Librarian of Congress** in 2018 and remains in effect under the following conditions:
 
-## 7. Limitation of Liability
+- **Good Faith**: The research must be conducted in good faith for purposes of improving the security or safety of a computer, network, or device.
+- **Lawful Acquisition**: The researcher must have lawfully acquired the software or device being examined.
+- **Controlled Environment**: The research must be conducted in a controlled environment, ensuring that it does not harm others or the public at large.
+- **Compliance with Other Laws**: The research must comply with applicable laws, including those related to computer hacking and privacy.
 
-To the maximum extent permitted by law, in no event shall the Licensor be liable for any damages arising out of the use of the Software, whether in an action of contract, negligence, or other tortious action.
+This exemption enables the Publisher to reverse-engineer and analyze the software for security purposes, consistent with public safety interests. For more details, please refer to the full text of the exemption in the **Library of Congress Rulemaking on Exemptions to Section 1201**, found [here](https://www.copyright.gov/1201/).
 
-## 8. Modifications to the EULA
+## 4. False DMCA Takedown Notices and Legal Action
 
-The Licensor reserves the right to modify this EULA at any time. Any updates will be posted to this repository, and continued use of the Software constitutes acceptance of any modified terms.
+This Content is protected under **fair use**, **whistleblower laws**, and the **DMCA Security Research Exemption**. Any party attempting to file a **false DMCA takedown notice** against this publication will face immediate legal action.
 
-## 9. Contact Information
+### 4.1 Liability for Misrepresentation (DMCA Section 512(f))
 
-If you have any questions or concerns regarding this EULA or the Software, please contact us at [Your Email Address].
+Under **17 U.S.C. § 512(f)**, any individual or entity that knowingly submits a **false DMCA takedown notice** by misrepresenting that the Content is infringing when it is clearly not will be held liable for damages, including the Publisher’s costs and attorney’s fees. The Publisher is prepared to pursue **all available legal remedies** against any party who attempts to suppress this research through improper use of the DMCA.
+
+Should you submit a false DMCA takedown notice, the following penalties may apply:
+
+- **Liability for Damages:** You may be held liable for any damages resulting from the disruption of the Publisher's work, including loss of income, harm to public education initiatives, and reputational harm caused by the improper takedown request.
+- **Attorney’s Fees and Court Costs:** The Publisher will seek full recovery of all legal expenses related to defending the Content, including court costs and attorney’s fees.
+- **Perjury and Legal Sanctions:** Filing a false DMCA takedown notice constitutes **perjury** under U.S. law. This can result in criminal charges, fines, and other legal penalties.
+
+### 4.2 Legal Intent to Pursue Action
+
+The Publisher hereby asserts the legal right to defend this publication and will not hesitate to take **legal action** against any party submitting a false DMCA takedown notice. This includes but is not limited to filing counter-notifications, seeking injunctions, and pursuing full damages in court.
+
+The Publisher is protected by legal precedents, including **Lenz v. Universal Music Corp.**, which established that copyright holders must consider **fair use** before submitting DMCA takedown notices. Failure to respect these protections will result in aggressive legal recourse.
+
+## 5. No Infringement Intended
+
+The Publisher asserts that the Content is not intended to infringe upon any copyright or intellectual property rights. The analysis, documentation, and reverse-engineering contained in the Content are intended solely for **research, educational purposes**, and **public safety**. 
+
+If you believe that any aspect of this Content infringes upon your rights, you may contact the Publisher at [Your Contact Information] to resolve the matter. However, the Publisher maintains that this Content is fully protected under **fair use**, **whistleblower laws**, and the **DMCA Security Research Exemption**.
+
+## 6. Disclaimer of Liability
+
+The Publisher is not responsible for any consequences that may arise from third parties who modify or misuse the Content. The reverse-engineering and malware documentation provided are for educational and security purposes only and are delivered "as is." The Publisher is not liable for any damages caused by the distribution of malware or modifications to the analyzed software by third parties.
+
+## 7. Reporting Misuse or Errors
+
+If you discover any inaccuracies in the documentation or believe there has been misuse of the Content, please contact the Publisher at [Your Contact Information] for a prompt review and correction.
+
+## 8. Governing Law
+
+This Agreement and all legal matters related to it shall be governed by and construed in accordance with the laws of [Insert Your Country/State]. Any legal disputes arising from this Agreement will be adjudicated in the courts of [Insert Country/State].
+
+## 9. Amendments
+
+The Publisher reserves the right to amend this Agreement at any time. If amendments are made, an updated version of this Agreement will be published at [Insert URL].
+
+---
+
+**By accessing and using the Content, you acknowledge that you have read, understood, and agreed to the terms of this EULA.**
