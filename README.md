@@ -2,12 +2,11 @@
 
 ## 1. Executive Summary
 
-This report provides a comprehensive analysis of the **Merlin-Equ8** sample. The analysis covers its identified functionalities, key indicators of compromise (IoCs), and technical insights into the software's behavior. The report focuses on the malware's capabilities related to anti-cheat mechanisms and system information gathering.
+This report provides a comprehensive analysis of the **Merlin-Equ8** sample and is not FULLY completed. The analysis covers its identified functionalities, key indicators of compromise (IoCs), and technical insights into the software's behavior. The report focuses on the malware's capabilities related to anti-cheat mechanisms and system information gathering.
 
 ## 1. Bottom Line Up Front - Does a intrusive malware anticheat work?
 
 ![image](https://github.com/user-attachments/assets/8843058a-e246-4ce0-8596-906958486752)
-
 
 
 ## 2. Overview
@@ -108,9 +107,14 @@ The malware checks if TestSigning mode is enabled to prevent the use of unsigned
 
 ## 6. Indicators of Compromise (IoCs)
 
-- **File Names:** [List of suspicious file names]
-- **Registry Keys:** [List of any registry changes]
-- **Network Connections:** [Details of any C2 server connections]
+- **File Names:**
+- anticheat.x64.redkard.exe
+- client.x64.redkard.dll
+- redkard.sys
+- **Hashes**
+-  DE44BE17C2DF928630D6542E6F43BB24D1894C6DD7154DEE4636217F2ADF1B0F
+-  3A2BC6BE1589DA3B28538886C86C732D2F34D7147A6DA3625642C6EAD847F81A
+-  9F7EA0C3EFBDEF23539A50689025A58240DD77AF4265EDF53339722BB91A8DE2
 
 ## 7. Conclusion and Recommendations
 
