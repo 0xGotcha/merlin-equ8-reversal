@@ -86,9 +86,9 @@ The **Merlin-Equ8** sample demonstrates a typical anti-cheat mechanism used in g
 
 
 
-# Fair Use End User License Agreement (EULA) for [Your Project Name]
+# Fair Use End User License Agreement (EULA) for [Merlin-Malware]
 
-**Effective Date:** [Date]
+**Effective Date:** [8/23/2024]
 
 ## 1. Introduction
 
