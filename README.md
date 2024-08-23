@@ -4,6 +4,12 @@
 
 This report provides a comprehensive analysis of the **Merlin-Equ8** sample. The analysis covers its identified functionalities, key indicators of compromise (IoCs), and technical insights into the software's behavior. The report focuses on the malware's capabilities related to anti-cheat mechanisms and system information gathering.
 
+## 1. Bottom Line Up Front - Does a intrusive malware anticheat work?
+
+![image](https://github.com/user-attachments/assets/8843058a-e246-4ce0-8596-906958486752)
+
+
+
 ## 2. Overview
 
 - **Sample Name:** Merlin-Equ8
