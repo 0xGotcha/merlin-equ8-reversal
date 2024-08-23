@@ -16,7 +16,7 @@ This report provides a comprehensive analysis of the **Merlin-Equ8** sample. The
 - **Category:** Anti-Cheat Tool
 - **Target Platform:** Windows
 - **Date Analyzed:** 8/23/2024
-- **Analyst:** Gotcha
+- **Analyst:** Gotcha/sircapsalot
 
 This analysis aims to reverse-engineer the sample to uncover its key functionalities and potential risks.
 
