@@ -1,4 +1,4 @@
-# Malware Analysis Report: Merlin-Equ8 Reversal
+# Malware Analysis Report: Merlin-Equ8 Reversal (-NoMerlin)
 
 ## 1. Executive Summary
 
