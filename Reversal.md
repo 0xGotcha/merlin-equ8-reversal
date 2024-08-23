@@ -9,8 +9,8 @@ This report provides a comprehensive analysis of the **Merlin-Equ8** sample. The
 - **Sample Name:** Merlin-Equ8
 - **Category:** Anti-Cheat Tool
 - **Target Platform:** Windows
-- **Date Analyzed:** [Date]
-- **Analyst:** [Your Name]
+- **Date Analyzed:** 8/23/2024
+- **Analyst:** Gotcha
 
 The purpose of this analysis is to reverse-engineer the provided sample to understand its key functionalities and potential risks.
 
