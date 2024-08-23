@@ -2,7 +2,7 @@
 
 ## 1. Executive Summary
 
-This report provides a comprehensive analysis of the **Merlin-Equ8** sample. The analysis covers the identified functionalities, key indicators of compromise, and technical insights into the malware’s behavior. The report focuses on the malware's capabilities related to anti-cheat mechanisms and information gathering on host systems.
+This report provides a comprehensive analysis of the **Merlin-Equ8** sample. The analysis covers its identified functionalities, key indicators of compromise (IoCs), and technical insights into the software's behavior. The report focuses on the malware's capabilities related to anti-cheat mechanisms and system information gathering.
 
 ## 2. Overview
 
@@ -12,7 +12,7 @@ This report provides a comprehensive analysis of the **Merlin-Equ8** sample. The
 - **Date Analyzed:** 8/23/2024
 - **Analyst:** Gotcha
 
-The purpose of this analysis is to reverse-engineer the provided sample to understand its key functionalities and potential risks.
+This analysis aims to reverse-engineer the sample to uncover its key functionalities and potential risks.
 
 ## 3. Analysis Environment
 
@@ -29,40 +29,70 @@ One of the primary features of the Merlin-Equ8 sample is its ability to detect k
 ![String Check](https://github.com/user-attachments/assets/5a64d1fb-fd9b-4481-9037-eb513239c017)
 
 **Description:**  
-The malware contains hardcoded strings commonly associated with cheat tools. Upon execution, it compares these strings against running processes and loaded modules to detect the presence of cheating software.
+The malware contains hardcoded strings associated with known cheat tools. Upon execution, it compares these strings against running processes and loaded modules to detect the presence of cheating software.
 
-## 5. Technical Analysis
-
-The detection of these strings may trigger actions such as system shutdown, player bans, or log entries to the server, indicating a cheating attempt.
+**Impact:**  
+The detection of these strings may trigger actions such as system shutdown, player bans, or log entries sent to a server, indicating a cheating attempt.
 
 ### 4.2 Gathers Hard Disk Information
 
-The sample also gathers detailed information about the hard disk. This includes collecting serial numbers, manufacturer details, and partition information.
+The sample also gathers detailed information about the hard disk, such as serial numbers, manufacturer details, and partition information.
 
 ![Hard Disk Information](https://github.com/user-attachments/assets/e85eac01-f9bd-4338-95ad-3afe9f5a9005)
 
 **Description:**  
-The malware queries the system's hard disk using APIs to collect identifying information. This data may be used for generating hardware-based identifiers, which can be used to uniquely identify and track a system, or to prevent duplicate account creation on the same device.
+The malware queries the system's hard disk using APIs to collect identifying information. This data may be used for generating hardware-based identifiers to uniquely track a system, preventing duplicate account creation on the same device.
 
 **Impact:**  
-The hard disk information could be used in anti-cheat mechanisms, ensuring that even if a user creates a new account, they are still identifiable via hardware signatures.
+The hard disk information could be used in anti-cheat mechanisms, ensuring that users cannot bypass bans by creating new accounts on the same hardware.
 
+### 4.3 Process Enumeration
 
+The malware enumerates all running processes to gather further insights into the system.
 
+![Enumerate All Processes](https://github.com/user-attachments/assets/0c9856fb-c70f-4907-a7cb-08ac4935ef5c)
 
+### 4.4 Gathers Registry Key Information and Checks
 
+The malware examines specific registry keys for information and checks related to system configurations.
 
+![Registry Information Check](https://github.com/user-attachments/assets/8a385f68-b261-48a3-8f2b-db887e048ecf)
 
+### 4.5 Window Title Enumeration
+
+The malware enumerates all window titles, likely to detect cheat tools by their window names.
+
+![Window Title Enumeration](https://github.com/user-attachments/assets/ce353edf-28c3-46e1-ae21-3718e766d552)
+
+### 4.6 Screenshots and Monitor Enumeration
+
+The malware captures screenshots and enumerates monitor details to monitor the system's display environment.
+
+![EnumMonitor](https://github.com/user-attachments/assets/f8d30354-a27f-4d58-8a92-88f0935309a2)
+
+### 4.7 Trusted Status Reporting: Anti-Cheat or Malware?
+
+The sample checks for whether the system is considered "trusted" and reports back accordingly.
+
+![Trusted Status Reporting](https://github.com/user-attachments/assets/05da8a02-e9fe-431f-ab05-26b59f01a6dd)
+
+### 4.8 Test Signing Mode Check
+
+The malware checks if TestSigning mode is enabled to prevent the use of unsigned drivers.
+
+![Test Signing Mode Check](https://github.com/user-attachments/assets/064367f7-7055-4816-8925-c2d028da11f0)
+
+## 5. Technical Analysis
 
 ### 5.1 Code Overview
 
-- **Language:** C++ (with CRT avoidance as per observed implementation style)
+- **Language:** C++ (with CRT avoidance based on observed implementation style)
 - **Obfuscation Techniques:** Minimal, primarily string obfuscation
 
 ### 5.2 Detailed Functional Flow
 
 1. **Initialization:** The malware starts by gathering system details, including OS version, CPU architecture, and hard disk information.
-2. **String Comparisons:** The malware iterates over a predefined list of cheat tool strings and searches them across running processes.
+2. **String Comparisons:** It iterates over a predefined list of cheat tool strings and searches them across running processes.
 3. **Reporting:** If a match is found, the malware logs the details or communicates back to a remote server.
 
 ## 6. Indicators of Compromise (IoCs)
@@ -81,18 +111,15 @@ The **Merlin-Equ8** sample demonstrates a typical anti-cheat mechanism used in g
 - Regularly update endpoint protection software.
 - Conduct frequent system integrity checks.
 
+---
 
+# Fair Use End User License Agreement (EULA) for Merlin-Malware
 
-
-
-
-# Fair Use End User License Agreement (EULA) for [Merlin-Malware]
-
-**Effective Date:** [8/23/2024]
+**Effective Date:** 8/23/2024
 
 ## 1. Introduction
 
-This End User License Agreement ("EULA") is a legal agreement between you and [Your Name or Organization] ("Licensor") regarding the use of the software code, documentation, and other content provided in the [Your Project Name] repository (the "Software"). By using or contributing to this Software, you agree to the terms of this EULA.
+This End User License Agreement ("EULA") is a legal agreement between you and [Your Name or Organization] ("Licensor") regarding the use of the software code, documentation, and other content provided in the Merlin-Malware repository (the "Software"). By using or contributing to this Software, you agree to the terms of this EULA.
 
 ## 2. License Grant and Fair Use
 
