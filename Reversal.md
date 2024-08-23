@@ -82,6 +82,11 @@ The malware checks if TestSigning mode is enabled to prevent the use of unsigned
 
 ![Test Signing Mode Check](https://github.com/user-attachments/assets/064367f7-7055-4816-8925-c2d028da11f0)
 
+### 4.9 Obtaining UEFI Variables
+![uefivariables](https://github.com/user-attachments/assets/5746c1e5-6168-44dc-b916-33111c069939)
+
+
+
 ## 5. Technical Analysis
 
 ### 5.1 Code Overview
